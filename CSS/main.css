@@ -143,9 +143,9 @@ text-decoration: none;
   margin-left:6% ;
 }
 .container {
-  margin:0 auto;
+  margin-left:0 auto;
   display:flex;
-  width: 1020px;
+  width: 950px;
   flex-wrap:wrap;
   justify-content: space-between;
 }
@@ -154,7 +154,6 @@ text-decoration: none;
   display: -webkit-flex;
   display: flex;
   flex-wrap:wrap;
-  background-color: blue;
   flex:2;
 }
 
@@ -162,11 +161,11 @@ text-decoration: none;
   display: -webkit-flex;
   display: flex;
   flex-wrap:wrap;
-  background-color: red;
   flex:1;
 }
 img {
   display:flex;
+  margin:5px;
 }
 .imgA {
   flex:3;
