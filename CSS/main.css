@@ -28,6 +28,12 @@ header {
   padding-right: 2.8%;
 }
 
+.highlight-button:hover {
+  background-color:white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 3px grey;
+}
+
 #designco {
   width: 110px;
   margin-top: 4px;
