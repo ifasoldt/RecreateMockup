@@ -1,0 +1,48 @@
+* {
+  border: black 1px solid;
+}
+
+.container {
+  margin:0 auto;
+  display:flex;
+  width: 1020px;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.columnA {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap:wrap;
+  background-color: blue;
+  flex:2;
+}
+
+.columnB {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap:wrap;
+  background-color: red;
+  flex:1;
+}
+img {
+  display:flex;
+}
+.imgA {
+  flex:3;
+}
+
+.imgB {
+  flex:1;
+}
+
+.imgC {
+  flex:2;
+}
+.imgD {
+  flex:1;
+}
+
+.imgE {
+  flex:1
+}

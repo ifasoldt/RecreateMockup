@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  /*border: red 1px solid;*/
+}
+
+header {
+  height:7.84vw;
+  background-color: #f7f7f7;
+  padding-left: 15%;
+  padding-right: 9%;
+  position:fixed;
+  top: 0;
+  left:0;
+  width: 100%
+}
+
+.bar {
+  height:7.84vw;
+}
+
+.header-column {
+  display:inline-block;
+  float:left;
+  font-size: 1.6vw;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  padding-right: 2.8%;
+}
+
+#designco {
+  width: 110px;
+  margin-top: 4px;
+  margin-right: 20px;
+}
+
+#empty {
+  width: 34%;
+}
+
+#search {
+  padding-left: 5px;
+  width:44%;
+}
+
+.red {
+  color:red;
+}
+
+p {
+   padding-top: 1vw;
+}
+
+h1 {
+  font-size: 3.8vw;
+  font-weight: bold;
+  text-align: center;
+  color: #4A4A4A;
+  line-height: 1.3em;
+  margin-top: 2.1vw;
+  margin-bottom: 0;
+
+}
+
+h5 {
+  text-align: center;
+  color: #4A4A4A;
+  font-size:1.85vw;
+  margin:0;
+  line-height: 1.3em;
+  font-weight: normal;
+}
+
+#redbar-top {
+  position:fixed;
+  top: 0;
+  left: 11.2vw;
+  height:.4vw;
+  width:76.5vw;
+  background-color: #FF0000;
+}
+
+#redbar-bottom {
+  position:absolute;
+  bottom: -30vw;
+  left:0;
+  height:.35vw;
+  width: 100%;
+  background-color: #FF0000;
+}
+body > div {
+  width: 75%;
+  margin: 0 auto;
+  /*padding-left: 5%;*/
+}
+
+div div {
+  margin-top: 0;
+  width: 18%;
+  color:#666666
+}
+
+.in-line1 {
+  display:inline-block;
+  width: 18%;
+  margin-right: 5.5%;
+  font-weight: bold;
+}
+
+.in-line2 {
+  float:left;
+  display: inline-block;
+}
+
+div div p {
+  margin-top: 0;
+  margin-bottom: .5vw;
+  padding-top: .3vw;
+}
+
+a.red-link:link {
+color:red;
+text-decoration: none;
+}
+
+a.inherit-link:link {
+color:inherit;;
+text-decoration: none;
+}
+
+.red {
+  color:red;
+}
+
+.smaller-font {
+  font-size: 1.15vw;
+}
+
+.columns-3 {
+  column-count: 3;
+  color: #666666;
+  width: 73%;
+  margin-left:6% ;
+}
+.container {
+  margin:0 auto;
+  display:flex;
+  width: 1020px;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.columnA {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap:wrap;
+  background-color: blue;
+  flex:2;
+}
+
+.columnB {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap:wrap;
+  background-color: red;
+  flex:1;
+}
+img {
+  display:flex;
+}
+.imgA {
+  flex:3;
+}
+
+.imgB {
+  flex:1;
+}
+
+.imgC {
+  flex:2;
+}
+.imgD {
+  flex:1;
+}
+
+.imgE {
+  flex:1
+}
